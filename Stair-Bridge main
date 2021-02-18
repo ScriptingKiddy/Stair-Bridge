@@ -1,0 +1,12 @@
+0::  
+random, r, 210  , 250
+random, y, 90, 130
+random, t, 130  , 180
+send, {Rbutton}
+Send, {space down} {s down}
+sleep, 50
+Send, {2 up} 
+sleep, t
+send, {s up}
+send, {Rbutton}
+return
